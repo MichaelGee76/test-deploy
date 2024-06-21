@@ -1,0 +1,81 @@
+.profile_title {
+  display: flex;
+  align-items: center;
+}
+
+.profile_title svg {
+  margin-right: 16px;
+}
+
+.profile_nav {
+  display: flex;
+}
+.profile_top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.profile svg {
+  margin-left: 16px;
+}
+
+.font_info {
+  font-size: 14px;
+  font-weight: 550;
+}
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile_img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.profile_img {
+  position: relative;
+}
+.userOn {
+  position: absolute;
+  top: 90px;
+  right: -5px;
+}
+
+.font_bio {
+  font-size: 14px;
+  text-align: center;
+}
+.font_link {
+  color: #246bfd;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.profile_numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.profile_numbers h1 {
+  text-align: center;
+  padding: 5px 30px;
+}
+
+.profile_numberbox {
+  text-align: center;
+  height: 55px;
+}
+.profile_numberborder {
+  border-left: 1.6px solid rgba(128, 128, 128, 0.299);
+  border-right: 1.6px solid rgba(128, 128, 128, 0.299);
+  padding-inline: 40px;
+}

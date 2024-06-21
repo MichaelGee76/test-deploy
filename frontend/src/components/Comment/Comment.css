@@ -1,0 +1,42 @@
+.cmnt_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.cmnt_bottom {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.cmnt_bottom div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cmnt_bottom label {
+  background-color: unset;
+  border: unset;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cmnt_bottom p {
+  font-size: 12px;
+}
+
+.comment_meta_wrapper {
+  margin-left: 24px;
+}
+
+.show_answers {
+  width: max-content;
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
+  margin-bottom: 18px;
+}

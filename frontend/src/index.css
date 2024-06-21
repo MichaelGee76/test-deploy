@@ -1,0 +1,89 @@
+@font-face {
+  font-family: urbanist;
+  src: url(../public/fonts/Urbanist-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: urbanist;
+  color: var(--main-text);
+}
+/* body {
+  overflow-x: hidden;
+  max-width: 100vw;
+} */
+img {
+  max-width: 100%;
+}
+
+:root {
+  --mid-pink: #ff4d67;
+  --light-pink: #ff8a9b;
+
+  --icons-grey: #9e9e9e;
+  --input-grey: #fafafa;
+  --loginfont-grey: #9e9e9e;
+
+  --hashtag-blue: #3f51b2;
+
+  --main-background: #ffffff;
+  --main-text: #212121;
+  --sec-text: #616161;
+}
+
+.container {
+  margin-inline: 24px;
+  margin-block: 12px;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.username_post {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+.userdescription_post {
+  font-size: 14px;
+  color: var(--sec-text);
+  font-weight: 500;
+}
+
+.button_unclicked {
+  width: 100%;
+  background-color: var(--mid-pink);
+  border: none;
+  font-size: 18px;
+  font-weight: 550;
+  color: white;
+  padding-block: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.button_clicked {
+  width: 100%;
+  background-color: rgb(201, 197, 197);
+  border: none;
+  font-size: 18px;
+  font-weight: 550;
+  color: white;
+  padding-block: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
